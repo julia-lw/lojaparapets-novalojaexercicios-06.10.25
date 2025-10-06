@@ -3,45 +3,75 @@
 const products = [
     {
         id: 1,
-        name: "Cadeira de Escritório Minimalista",
-        price: 599.99,
-        image: "image/Cadeira de Escritório Minimalista.avif"
+        name: "Cama Nuvem Lisa Oliva",
+        price: 279.00,
+        image: "img/Cama Nuvem Lisa Oliva.avif"
     },
     {
         id: 2,
-        name: "Mesa de Centro Moderna",
-        price: 349.99,
-        image: "image/mesa.webp"
+        name: "Máquina de Tosa Propetz",
+        price: 300.59,
+        image: "img/Máquina de Tosa Propetz.avif"
     },
     {
         id: 3,
-        name: "Luminária de Mesa Elegante",
-        price: 129.99,
-        image: "image/Luminária de Mesa Elegante.avif"
+        name: "Comedouro Alto Duplo para Cães Tamanho G",
+        price: 90.99,
+        image: "img/Comedouro Alto Duplo para Cães Tamanho G.avif"
     },
     {
         id: 4,
-        name: "Vaso Decorativo Cerâmica",
-        price: 79.99,
-        image: "image/Vaso Decorativo Cerâmica.avif"
+        name: "Mec Pet Caixa de Transporte",
+        price: 59.99,
+        image: "img/Mec Pet Caixa de Transporte.avif"
     },
     {
         id: 5,
-        name: "Conjunto de Canetas Premium",
+        name: "Colchão Impermeável Fábrica Pet",
         price: 45.99,
-        image: "image/Conjunto de Canetas Premium.avif"
+        image: "img/Colchão Impermeável Fábrica Pet.avif"
     },
     {
         id: 6,
-        name: "Caderno de Notas Capa Dura",
+        name: "Fantasia de Rena para Cães e Gatos de Porte Médio",
         price: 29.99,
-        image: "image/Caderno de Notas Capa Dura.avif"
+        image: "img/Fantasia de Rena para Cães e Gatos de Porte Médio.avif"
     },
     {
         id: 7,
-        name: "Sofá Vintage verde musgo",
-        price: 799.99,
-        image: "image/Mesa de Centro Moderna.avif"
+        name: "Parquinho Natural Playground para Aves",
+        price: 106.99,
+        image: "img/Parquinho Natural Playground para Aves.avif"
+    },
+    {
+        id: 8,
+        name: "Banheira Para Pássaros Com Comedouro",
+        price: 100.59,
+        image: "img/Banheira Para Pássaros Com Comedouro.avif"
+    },
+    {
+        id: 9,
+        name: "Ração para Peixe Betta Alcon Mini Betta",
+        price: 12.90,
+        image: "img/Ração para Peixe Betta Alcon Mini Betta.avif"
+    },
+    {
+        id: 10,
+        name: "Filtro Pequeno para Aquário Hieryan",
+        price: 101.89,
+        image: "img/Filtro Pequeno para Aquário Hieryan.avif"
+    },
+    {
+        id: 11,
+        name: "Arranhador para Gatos",
+        price: 221.90,
+        image: "img/Arranhador para Gatos.avif"
+    },
+    {
+        id: 12,
+        name: "Gaiola para Calopsita",
+        price: 349.90,
+        image: "img/Gaiola para Calopsita.avif"
     },
 ];
 
