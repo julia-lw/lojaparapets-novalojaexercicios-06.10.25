@@ -22,7 +22,19 @@ header {
     top: 0;
     z-index: 100;
 }
-
+table {
+    margin: 0 auto;
+    /*width: 100%;*/
+    border-collapse: collapse;
+}
+tr,th,td{
+    border: 1px solid #ff7b00;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #fda2c0;
+}
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -116,6 +128,9 @@ nav ul li a:hover {
     background-color: #f1f1f1;
     transform: translateY(-2px);
 }
+
+/*Novidades/parte do cadastro*/
+
 
 /* Seção de produtos */
 .products {

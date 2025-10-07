@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐶PetSpace - E-commerce Minimalista</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="header-container">
+            <div class="logo">🐱Pet<span>Space🐥</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html#products">Produtos</a></li>
+                    <li><a href="index.html#products">Novidades</a></li>
+                    <li><a href="index.html#sobre">Sobre</a></li>
+                    <li><a href="index.html#contato">Contato</a></li>
+                    <li><a href="index.html#fidelidade">Fidelidade</a></li>
+                    <li class="cart-icon" id="cart-icon">
+                        Carrinho
+                        <span class="cart-count" id="cart-count">0</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Carrinho lateral -->
+    <div class="overlay" id="overlay"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Seu Carrinho</h3>
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Itens do carrinho serão inseridos aqui -->
+        </div>
+        <div class="cart-total">
+            Total: R$ <span id="cart-total">0.00</span>
+        </div>
+        <button class="checkout-btn">Finalizar Compra</button>
+    </div>
+    <section id="cadastro" class="products">
+        <h2 class="section-title">Receba nossas promoções</h2>
+        <h3>Cadastre e receba nossas promoções</h3> <br>
+        <form method="post">
+            <label>Nome Completo:</label>
+            <input type="text" id="nome" placeholder="Seu nome aqui" required> <br> <br>
+            <label>E-mail:</label>
+            <input type="email" id="email" placeholder="Seu e-mail aqui" required> <br> <br>
+            <label>Telefone:</label>
+            <input type="tel" id="telefone" placeholder="Seu telefone aqui" required> <br> <br>
+            <button>Cadastrar</button>
+        </form>
+    </section>
+    
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 MinimalStore. Todos os direitos reservados. <br>
+                Feito por Júlia Lichtenfels Weçolovis.</p>
+            <div class="footer-links">
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Serviço</a>
+                <a href="#">Contato</a>
+            </div>
+        </div>
+    </footer>
+<script src="scripts.js"></script> 
+
+</body>
+</html>
