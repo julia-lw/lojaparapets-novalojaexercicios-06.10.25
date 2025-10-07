@@ -129,8 +129,83 @@ nav ul li a:hover {
     transform: translateY(-2px);
 }
 
-/*Novidades/parte do cadastro*/
+/* Novidades - parte do cadastro/formulário */
 
+#cadastro {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 5px solid #db6334;
+}
+
+#cadastro h2.section-title, #cadastro h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#cadastro form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* labels */
+#cadastro label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #f14a08;
+    margin-top: 15px;
+}
+
+#cadastro input[type="text"],
+#cadastro input[type="email"],
+#cadastro input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ff7300;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #FFF3E0;
+    color: #333;
+}
+
+#cadastro input[type="text"]:focus,
+#cadastro input[type="email"]:focus,
+#cadastro input[type="tel"]:focus {
+    border-color: #E91E63;
+    outline: none;
+    box-shadow: 0 0 8px rgba(233, 30, 99, 0.3);
+    background-color: #fff;
+}
+
+#cadastro button {
+    background-color: #eb406a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#cadastro button:hover {
+    background-color: #f80240;
+    transform: translateY(-2px);
+}
+
+#cadastro form br {
+    display: none;
+}
 
 /* Seção de produtos */
 .products {
