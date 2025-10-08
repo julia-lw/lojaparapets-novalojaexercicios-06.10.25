@@ -75,6 +75,25 @@ const products = [
     },
 ];
 
+// parte do cep
+
+function buscarCEP(){
+    const campoCep = document.getElementById('cep');
+    let valorCep = campoCep.value.replace(/\D/g, '');
+    if(valorCep.length!==8){
+        limparCamposEndereço();
+        return
+    }
+    const url = `https://viacep.com.br/ws/${valorCep}/json/`;
+    fetch (url)
+    .then(response => response.json())
+    .then(data => {
+        if (data.erro) {
+            alert("CEP inválido/não encontrado. ")
+        }
+    })
+}
+
 // Estado do carrinho
 let cart = [];
 

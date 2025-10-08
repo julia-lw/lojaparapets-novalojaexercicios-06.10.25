@@ -165,7 +165,8 @@ nav ul li a:hover {
 #cadastro input[type="text"],
 #cadastro input[type="email"],
 #cadastro input[type="tel"],
-#cadastro input[type="senha"] {
+#cadastro input[type="senha"],
+#cadastro input[type="cep"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
