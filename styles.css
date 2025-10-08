@@ -180,7 +180,9 @@ nav ul li a:hover {
 
 #cadastro input[type="text"]:focus,
 #cadastro input[type="email"]:focus,
-#cadastro input[type="tel"]:focus {
+#cadastro input[type="tel"]:focus,
+#cadastro input[type="senha"]:focus,
+#cadastro input[type="cep"] {
     border-color: #E91E63;
     outline: none;
     box-shadow: 0 0 8px rgba(233, 30, 99, 0.3);
