@@ -96,8 +96,8 @@ nav ul li a:hover {
 
 /* Banner principal */
 .hero {
-    background-color: #ee7e33;
-    color: white;
+    background-image: #ff7300;
+    color: rgb(0, 0, 0);
     padding: 4rem 2rem;
     text-align: center;
 }
@@ -105,6 +105,7 @@ nav ul li a:hover {
 .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    color:#ee5315;
 }
 
 .hero p {
@@ -115,8 +116,8 @@ nav ul li a:hover {
 
 .btn {
     display: inline-block;
-    background-color: #fff;
-    color: #ff0037;
+    background-color: #dd8451;
+    color: #ffffff;
     padding: 0.8rem 1.5rem;
     border-radius: 4px;
     text-decoration: none;
@@ -125,7 +126,7 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-    background-color: #f1f1f1;
+    background-color: #e76920;
     transform: translateY(-2px);
 }
 
